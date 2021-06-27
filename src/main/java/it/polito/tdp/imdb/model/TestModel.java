@@ -6,8 +6,11 @@ public class TestModel {
 		
 		Model model = new Model();
 
-		model.creaGrafo(2004);
-
+		model.creaGrafo(2005);
+		
+		System.out.println(model.getRegistiAdiacenti(new Director(498,"Keith", "Adler")));
+		
+		System.out.println(model.camminoMassimo(new Director(498,"Keith", "Adler"), 13));
 	}
 
 }
