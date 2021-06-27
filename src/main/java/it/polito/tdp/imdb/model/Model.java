@@ -130,7 +130,7 @@ public class Model {
 			return;
 		if(c >= 0) {
 			if(parziale.size() > best.size()) {
-				best = parziale;
+				best = new ArrayList<Director>(parziale);
 			}
 //			return;
 		}
